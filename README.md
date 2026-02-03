@@ -1,6 +1,6 @@
 # MNIST Handwritten Digit Classification Using RNN
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a **Recurrent Neural Network (RNN)** to classify handwritten digits from the **MNIST dataset**. Instead of using a CNN, each image is treated as a **sequence**, allowing the RNN to learn patterns row‑by‑row.
 
@@ -8,7 +8,7 @@ The complete implementation is available in a Jupyter Notebook.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Understand digit classification using RNNs
 * Learn how images can be treated as sequences
@@ -17,7 +17,7 @@ The complete implementation is available in a Jupyter Notebook.
 
 ---
 
-## 📂 Key Concepts Covered
+##  Key Concepts Covered
 
 * Loading the MNIST dataset
 * Image preprocessing and normalization
@@ -28,7 +28,7 @@ The complete implementation is available in a Jupyter Notebook.
 
 ---
 
-## 🧵 Dataset Description
+##  Dataset Description
 
 The **MNIST dataset** consists of grayscale handwritten digit images:
 
@@ -39,7 +39,7 @@ The **MNIST dataset** consists of grayscale handwritten digit images:
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 Each 28×28 image is reshaped into a sequence of **28 time steps**, with **28 pixel values per step**.
 
@@ -53,7 +53,7 @@ This approach allows the RNN to learn spatial relationships along image rows.
 
 ---
 
-## 📊 Training & Evaluation
+##  Training & Evaluation
 
 * **Optimizer:** Adam
 * **Loss Function:** Categorical Crossentropy
@@ -63,7 +63,7 @@ Steps include training on the training set and evaluating accuracy on the test s
 
 ---
 
-## 📈 Results
+##  Results
 
 * Training and validation accuracy trends
 * Final test accuracy
@@ -73,7 +73,7 @@ These results show how effectively an RNN can classify handwritten digits.
 
 ---
 
-## 🛠️ Dependencies
+##  Dependencies
 
 Install required libraries using:
 
@@ -83,7 +83,7 @@ pip install tensorflow numpy matplotlib jupyter
 
 ---
 
-## 📚 References
+##  References
 
 * MNIST Dataset
 * Recurrent Neural Networks (RNN)
